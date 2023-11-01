@@ -82,14 +82,12 @@ p{
 }
 @media screen and (max-width:500px){
     .sec{
-        background: url(responsive.jpg);
+        background: url(responsive.jpg)no-repeat;
     }
     header{
         padding: 10px;
     }
-    header .head{
-        justify-content: none;
-    }
+    
     header a{
         margin-right: 0px;
     }
@@ -98,7 +96,7 @@ p{
         margin-left: 90%;
         margin-bottom: 20px;
         color: white;
-        justify-content: end;
+        
         
     }
     p{
